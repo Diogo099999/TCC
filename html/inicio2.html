@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início</title>
+    <link rel="stylesheet" href="/css/inicio.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/html/inicio.html">
+        <img src="/img/logo.png" alt="Logo" class="logo" />
+      </a>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchBar"
+          placeholder="Look up..."
+          onkeyup="searchContent()"
+        />
+      </div>
+      <nav class="button-container">
+        <button onclick="showLoginMessage()">Home</button>
+        <button onclick="showLoginMessage()">Therapist Profiles</button>
+        <button onclick="showLoginMessage()">Educational/Self-Help</button>
+        <button onclick="showLoginMessage()">Emergency Resources</button>
+        <button onclick="showLoginMessage()">Privacy and Security</button>
+        <button><a href="/html/index.html">Log in</a></button>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="text-blocks">
+        <div class="block" data-name="about us">
+          <p>
+            About us: The website has been created for the purpose of providing
+            help and for all people with psychological problems, giving tips,
+            and recommending professionals in the area who can help in the best
+            way.
+          </p>
+        </div>
+        <div class="block locked" id="lockedContent">
+          <p>
+            This content is locked. Please log in to access more resources and
+            features.
+          </p>
+        </div>
+        <div class="block">
+          <p>
+            Self-care Tips: Find practical tips on how to take care of your
+            mental and emotional well-being every day.
+          </p>
+        </div>
+        <div class="block">
+          <p>
+            Support Groups: Discover various support groups for different mental
+            health conditions where you can connect with others.
+          </p>
+        </div>
+      </section>
+
+      <aside class="image-blocks">
+        <img src="/img/img1.jpg" alt="banner1" />
+        <img src="/img/img2.png" alt="banner2" />
+      </aside>
+    </main>
+
+    <div
+      id="alertMessage"
+      style="
+        display: none;
+        color: red;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid red;
+        border-radius: 5px;
+      "
+    >
+      You must log in to access this content.
+    </div>
+
+    <script src="/javascript/inicio2.js"></script>
+  </body>
+</html>

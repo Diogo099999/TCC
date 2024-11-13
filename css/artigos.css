@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background: #6ac0dd;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4em;
+  margin-top: 20px;
+  color: #fff;
+  background: linear-gradient(to right, #0026ff, #00ccff);
+  border-radius: 60px;
+  font-size: 40px;
+  width: 80%;
+  padding: 20px;
+}
+
+ul {
+  padding: 20px;
+  list-style-type: none;
+  width: 80%;
+}
+
+li {
+  margin-bottom: 50px;
+  font-size: 1.5em;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-right: 15px;
+}
+
+.button-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5db637;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background: linear-gradient(to right, #5db637, #02849b);
+}
+
+.button-container button a {
+  text-decoration: none;
+  color: white;
+}

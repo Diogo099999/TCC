@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Início</title>
+    <link rel="stylesheet" href="/css/inicio.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <a href="/html/inicio.html">
+        <img src="/img/logo.png" alt="Logo" class="logo" />
+      </a>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchBar"
+          placeholder="Look up..."
+          onkeyup="searchContent()"
+        />
+      </div>
+      <nav class="button-container">
+        <button><a href="/html/inicio.html">Home</a></button>
+        <button><a href="perfils.html">Therapist Profiles</a></button>
+        <button>
+          <a href="/html/autoajuda.html">Educational/Self-Help</a>
+        </button>
+        <button><a href="recurso.html">Emergency Resources</a></button>
+        <button>
+          <a href="/html/privacidade.html">Privacy and Security</a>
+        </button>
+        <button><a href="/html/index.html">Log out?</a></button>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="text-blocks">
+        <div class="block" data-name="about us">
+          <p>
+            About us: The website has been created for the purpose of providing
+            help and for all people with psychological problems, giving tips,
+            and recommending professionals in the area who can help in the best
+            way.
+          </p>
+        </div>
+        <div class="block" data-name="mental health">
+          <p>
+            Taking care of your Mental Health and making it healthy is our goal.
+            Therefore, we provide contacts of experts and related institutions
+            to self-care and emotional health.
+          </p>
+        </div>
+        <div class="block" data-name="articles and guides">
+          <p>
+            Here you will find articles and guides explaining how you can take
+            special care of yourself and ensure your stability.
+          </p>
+        </div>
+        <div class="block" data-name="therapy types">
+          <p>
+            Therapy Types: Learn about different types of therapy, such as
+            cognitive-behavioral therapy (CBT), psychodynamic therapy, and more.
+          </p>
+        </div>
+        <div class="block" data-name="self-care tips">
+          <p>
+            Self-care Tips: Find practical tips on how to take care of your
+            mental and emotional well-being every day.
+          </p>
+        </div>
+        <div class="block" data-name="support groups">
+          <p>
+            Support Groups: Discover various support groups for different mental
+            health conditions where you can connect with others.
+          </p>
+        </div>
+        <div class="block" data-name="mindfulness practices">
+          <p>
+            Mindfulness Practices: Learn about mindfulness and meditation
+            practices to help manage stress and improve mental clarity.
+          </p>
+        </div>
+        <div class="block" data-name="emergency contacts">
+          <p>
+            Emergency Contacts: Quick access to emergency hotlines and resources
+            for immediate mental health assistance.
+          </p>
+        </div>
+        <div class="block" data-name="recommended books">
+          <p>
+            Recommended Books: A selection of books that can guide you through
+            self-care, therapy, and understanding mental health better:
+          </p>
+          <ul class="book-list">
+            <li>
+              <img
+                src="/img/livros/the_power_of_now.jpg"
+                alt="The Power of Now"
+              />
+              <a
+                href="https://archive.org/details/power-of-now"
+                target="_blank"
+              >
+                <i>The Power of Now</i> by Eckhart Tolle
+              </a>
+            </li>
+            <li>
+              <img
+                src="/img/livros/feeling_good.png"
+                alt="Feeling Good: The New Mood Therapy"
+              />
+              <a
+                href="https://archive.org/details/feelinggoodnew1999burn/mode/2up"
+                target="_blank"
+              >
+                <i>Feeling Good: The New Mood Therapy</i> by David D. Burns
+              </a>
+            </li>
+            <li>
+              <img
+                src="/img/livros/mans_search_for_meaning.png"
+                alt="Man's Search for Meaning"
+              />
+              <a
+                href="https://archive.org/details/manssearchformea0000fran_p2h1"
+                target="_blank"
+              >
+                <i>Man's Search for Meaning</i> by Viktor Frankl
+              </a>
+            </li>
+            <li>
+              <img
+                src="/img/livros/Self-Compassion.png"
+                alt="Self-Compassion"
+              />
+              <a
+                href="https://archive.org/details/selfcompassionpr0000neff"
+                target="_blank"
+              >
+                <i>Self-Compassion</i> by Kristin Neff
+              </a>
+            </li>
+            <li>
+              <img
+                src="/img/livros/the_body_keeps_the_score.png"
+                alt="The Body Keeps the Score"
+              />
+              <a
+                href="https://archive.org/details/itdidntstartwith0000woly"
+                target="_blank"
+              >
+                <i>The Body Keeps the Score</i> by Bessel van der Kolk
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="image-blocks">
+        <img src="/img/img1.jpg" alt="baner1" />
+        <img src="/img/img2.png" alt="baner2" />
+        
+        
+        <video width="100%" controls loop autoplay muted>
+          <source src="/video/inicio1.mp4" type="video/mp4" />
+          Seu navegador não suporta a tag de vídeo.
+        </video>
+        
+        <video width="100%" controls loop autoplay muted>
+          <source src="/video/inicio2.mp4" type="video/mp4" />
+          Seu navegador não suporta a tag de vídeo.
+        </video>
+        
+    <script src="/javascript/inicio.js"></script>
+  </body>
+</html>

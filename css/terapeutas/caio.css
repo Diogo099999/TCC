@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #0e6d7e, #579c3a);
+  color: #333;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #02849b;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-header h1 {
+  margin: 0;
+  color: #02849b;
+}
+
+.specialization {
+  font-weight: bold;
+  color: #5db637;
+}
+
+.profile-content {
+  margin-top: 20px;
+}
+
+.bio,
+.contact-info,
+.services {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #02849b;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5db637;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #02849b;
+}
