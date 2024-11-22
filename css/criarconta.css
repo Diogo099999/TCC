@@ -3,18 +3,20 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
-  margin: 0;
-  background: linear-gradient(to right, #02849b, #5db637);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/img/fundo\ login.png") no-repeat center center;
+  background-size: cover;
+  color: white;
 }
 .container {
   background: #fff;
   padding: 20px;
+  margin-top: 10%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
