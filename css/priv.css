@@ -88,3 +88,17 @@ body {
 .content {
   padding: 10px;
 }
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #333;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Muda a cor ao passar o mouse */
+}
